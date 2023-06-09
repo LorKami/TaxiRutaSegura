@@ -6,6 +6,7 @@ import { FaTiktok, FaInstagram } from 'react-icons/fa';
 
 import Logo1 from '../../images/logo1.png'
 import Taxi1 from '../../images/Ejemplo1.jpg'
+import Ejemplo2 from '../../images/Ejemplo2.jpg'
 
 const Monitor = () => {
 
@@ -26,10 +27,10 @@ const Monitor = () => {
             </div>
 
             <div className='MenuIndex'>
-            <Link to="Home" smooth={true} duration={700} spy={true} exact="true" offset={14} activeClass="active" onSetActive={handleSetActive}><a>Inicio</a></Link>
-            <Link to="Home" smooth={true} duration={700} spy={true} exact="true" offset={14} activeClass="active" onSetActive={handleSetActive}><a>Nosotros</a></Link>
-            <Link to="Home" smooth={true} duration={700} spy={true} exact="true" offset={14} activeClass="active" onSetActive={handleSetActive}><a>Servicios</a></Link>
-            <Link to="Home" smooth={true} duration={700} spy={true} exact="true" offset={14} activeClass="active" onSetActive={handleSetActive}><a>Contáctanos</a></Link>
+            <Link to="Home" smooth={true} duration={700} spy={true} exact="true" offset={0} activeClass="active" onSetActive={handleSetActive}><a>Inicio</a></Link>
+            <Link to="Nosotros" smooth={true} duration={700} spy={true} exact="true" offset={0} activeClass="active" onSetActive={handleSetActive}><a>Nosotros</a></Link>
+            <Link to="Home" smooth={true} duration={700} spy={true} exact="true" offset={0} activeClass="active" onSetActive={handleSetActive}><a>Servicios</a></Link>
+            <Link to="Home" smooth={true} duration={700} spy={true} exact="true" offset={0} activeClass="active" onSetActive={handleSetActive}><a>Contáctanos</a></Link>
             </div>
 
             <div className='MenuSociales'>
@@ -55,6 +56,25 @@ const Monitor = () => {
           </div>
         </div>
 
+    </div>
+
+    <div className='Nosotros' id='Nosotros'>
+
+      <div className='NosotrosBox'>
+
+      <div className='NosotrosImagen'>
+        <img src={Ejemplo2}/>
+      </div>
+
+      <div className='NosotrosTexto'>
+      <h2>Misión:</h2>
+      <p>Revolucionar la forma en que las personas acceden al transporte en las ciudades.</p>
+      <br/>
+      <h2>Visión:</h2>
+      <p>Proporcionar a los usuarios un medio de transporte seguro, confiable y eficiente a través de su plataforma digital.</p>
+      </div>
+
+      </div>
     </div>
 
     </div>

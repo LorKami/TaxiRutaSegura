@@ -1,3 +1,8 @@
+h2 {
+  color: #2196f3;
+  margin: 0;
+}
+
 .Monitor {
   display: flex;
   flex-direction: column;
@@ -90,8 +95,6 @@
 
 .MonitorTaxiIzq h2 {
   font-size: 3rem;
-  color: #2196f3;
-  margin: 0;
 }
 
 .MonitorTaxiIzq p {
@@ -109,5 +112,42 @@
   display: flex;
   max-width: 800px;
   width: 100%;
+  border-radius: 30px;
 }
-  
+
+.Nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ebebeb;
+}
+
+.NosotrosBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.NosotrosImagen {
+  display: flex;
+  width: 100%;
+  margin-right: 70px;
+}
+
+.NosotrosImagen img {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.NosotrosTexto {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  /* border: 2px solid blue; */
+}
