@@ -1,0 +1,113 @@
+.Monitor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid red; */
+}
+
+.Menu { 
+  display: flex;
+  width: 100%;
+  height: 13%;
+  background-color: #2196f3;
+  /* border: 2px solid blue; */
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  /* border: 2px solid green; */
+}
+
+.Logo img {
+  display: flex;
+  max-width: 80px;
+  width: 100%;
+}
+
+.MenuIndex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 55%;
+  /* border: 2px solid rgb(0, 255, 157); */
+}
+
+.MenuIndex a {
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.MenuSociales {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 10%;
+  /* border: 2px solid rgb(255, 217, 0); */
+}
+
+.MenuSociales a {
+  text-decoration: none;
+  color: white;
+}
+
+.MenuRegistro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+  /* border: 2px solid rgb(157, 255, 0); */
+}
+
+.MenuRegistro p {
+  color: white;
+  font-weight: 500;
+}
+
+.MonitorTaxi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.MonitorTaxiIzq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* border: 2px solid blue; */
+}
+
+.MonitorTaxiIzq h2 {
+  font-size: 3rem;
+  color: #2196f3;
+  margin: 0;
+}
+
+.MonitorTaxiIzq p {
+  font-size: 1.3rem;
+}
+.MonitorImagenDere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* border: 2px solid blue; */
+}
+
+.MonitorImagenDere img {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+}
+  
